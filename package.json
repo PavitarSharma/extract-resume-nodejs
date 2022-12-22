@@ -6,7 +6,7 @@
   "author": "Pavitar Sharma",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "license": "MIT",
   "dependencies": {

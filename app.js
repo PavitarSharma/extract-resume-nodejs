@@ -20,6 +20,7 @@ const getPDFText = (data) => {
     pdfParser.on("pdfParser_dataError", reject);
     pdfParser.on("pdfParser_dataReady", (pdfData) => {
       resolve(pdfParser.getRawTextContent());
+
     });
     pdfParser.parseBuffer(data);
   });

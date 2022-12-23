@@ -1,13 +1,13 @@
 {
-  "name": "resume-builder-nodejs",
+  "name": "resume-maker-backend",
   "version": "1.0.0",
-  "description": "Resume builder nodejs, expressjs, mongodb, restapi etc.",
-  "main": "app.js",
-  "author": "Pavitar Sharma",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
+  "repository": "https://github.com/PavitarSharma/extract-resume-nodejs.git",
+  "author": "pavitarsharma144 <pavitarsharma144@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.1",

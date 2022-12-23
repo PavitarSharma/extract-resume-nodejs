@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": "https://github.com/PavitarSharma/extract-resume-nodejs.git",
   "author": "pavitarsharma144 <pavitarsharma144@gmail.com>",
